@@ -17,8 +17,6 @@ k = 0
 z = 0
 
 for i in range(N):
-    #print('i')
-    #print(i)
     selectedMovie = loadedMovies[i]
     name_eng[i] = selectedMovie[0]  # title
     cast[i] = selectedMovie[1].split(',')  # actors
@@ -164,6 +162,6 @@ def get_recom_set(string):
     return  resultSet
 
 #print(get_recom_set("The Godfather: Part II"))
-#print(get_recommendation_list("The Godfather: Part II"))
+print(get_recommendation_list("The Godfather: Part II"))
 #print('EEEEEEEE')
 #print(getUrlArr(get_recom_set("The Godfather: Part II")))
